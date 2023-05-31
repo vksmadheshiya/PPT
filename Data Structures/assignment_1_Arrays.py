@@ -1,4 +1,5 @@
 
+print("********************  Q1  *************************")
 """ Q1. Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. 
 You may assume that each input would have exactly one solution, and you may not use the same element twice. 
 You can return the answer in any order.
@@ -27,8 +28,9 @@ class Solution1:
 
 print(Solution1().two_sum_brute_force([2,7,11,15], 9))
 print(Solution1().two_sum([2,7,11,15], 9))
-print("**"*50)
 
+
+print("\n********************  Q2  *************************\n")
 """Q2. Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. 
 The order of the elements may be changed. Then return the number of elements in nums which are not equal to val. 
 Consider the number of elements in nums which are not equal to val be k, to get accepted, you need to do the following things: 
@@ -53,7 +55,7 @@ class Solution2:
         return [count, nums]
 
 print(Solution2().replace_num_brute_force([3,2,2,3], 3))
-print("**"*50)
+print("\n********************  Q3  *************************\n")
 
 """ Q3. Given a sorted array of distinct integers and a target value, return the index if the target is found.
  If not, return the index where it would be if it were inserted in order. 
@@ -78,7 +80,7 @@ class Solution3:
         return right
 
 print(Solution3().search_num([1, 3, 5, 6, 7, 8, 9], 1))
-print("**"*50)
+print("\n********************  Q4  *************************\n")
 
 
 """Q4.You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. 
@@ -105,7 +107,7 @@ class Solution4:
 
 
 print(Solution4().plus_one([1,2,3]))
-print("**"*50)
+print("\n********************  Q5  *************************\n")
 
 
 
@@ -162,7 +164,7 @@ class Solution5:
 
 print(Solution5().merge_two_array([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3))
 print(Solution5().merge([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3))
-print("**"*50)
+print("\n********************  Q6  *************************\n")
 
 """Q5.Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 Example :
@@ -191,7 +193,7 @@ class Solution6:
 
 print(Solution6().check_duplicate([1, 2, 3, 1]))
 print(Solution6().contains_duplicate([1, 2, 3, 1]))
-print("**"*50)
+print("\n********************  Q7  *************************\n")
 
 
 """Q7. Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the nonzero elements. 
@@ -226,7 +228,7 @@ class Solution7:
 
 print(Solution7().move_zeroes_b_f([0,1,0,3,12]))
 print(Solution7().move_zeroes([0,1,0,3,12]))
-print("***"*50)
+print("\n********************  Q8  *************************\n")
 
 """Q8. You have a set of integers s, which originally contains all the numbers from 1 to n.
        Unfortunately, due to some error, one of the numbers in s got duplicated to another number in the set,
@@ -269,4 +271,3 @@ class Solution8:
 
 print(Solution8().remove_duplicate_with_original([1,2,2,4]))
 print(Solution8().find_error_nums([0,1,0,3,4]))
-print("**"*50)
